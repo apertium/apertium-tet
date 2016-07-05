@@ -40,5 +40,24 @@
     </pipeline>
   </mode>
 
+
+  <mode name="tet-spell" install="yes">
+    <pipeline>
+      <program name="hfst-ospell -S -n 10">
+        <file name="tet.zhfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="tet-tokenise">
+    <pipeline>
+      <program name="hfst-proc">
+        <file name=".deps/acceptor.default.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+
 </modes>
 
