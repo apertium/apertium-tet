@@ -112,6 +112,7 @@
 ~}
 
 ## Transition pairs + weight:
+##FEIL	OFFICIAL
 @@
 í	i	0.5
 ó	o	0.5
@@ -119,3 +120,14 @@
 é	e	0.5
 ú	u	0.5
 o	u	0.6
+i	e	0.7
+b	v	0.7
+z	j	0.7
+s	x	0.7
+o	u	0.7
+s	z	0.7
+j	z	0.7
+k	g	0.7
+b	p	0.7
+n	ñ	0.7
+b	w	0.7
